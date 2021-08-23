@@ -1,3 +1,12 @@
+# google credentials 
+translator-323822-4878d43bc01e.json
+
+# node
+package-lock.json
+
+# dotenv
+.env
+
 # Logs
 logs
 *.log
