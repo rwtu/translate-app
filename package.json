@@ -1,0 +1,29 @@
+{
+  "name": "translate-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwtu/translate-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rwtu/translate-app/issues"
+  },
+  "homepage": "https://github.com/rwtu/translate-app#readme",
+  "dependencies": {
+    "@google-cloud/translate": "^6.2.7",
+    "@slack/bolt": "^3.6.0",
+    "country-language": "^0.1.7",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
